@@ -2,7 +2,7 @@
 
 pipeline {
 
-  agent any
+  label 'master'
 
   environment {
     git_commit_message = ''
